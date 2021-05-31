@@ -6,9 +6,7 @@ function App() {
       <div id="header">
         <Header/>
       </div>
-
-
-
+      
   );
 }
 export default App;
