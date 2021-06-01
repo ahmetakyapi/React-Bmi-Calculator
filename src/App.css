@@ -15,3 +15,21 @@ body {
     width: 620px;
     height: 315px;
 }
+#calculator {
+    font-size: 25px;
+    display: inline-flex;
+    text-align: justify-all;
+}
+#calculator div #heightInput {
+    font-size: 18px;
+    background: darkgrey;
+}
+#calculator div #weightInput {
+    font-size: 18px;
+    background: darkgrey;
+}
+#description {
+    font-size: 22px;
+    color: bisque;
+    text-align: center;
+}
