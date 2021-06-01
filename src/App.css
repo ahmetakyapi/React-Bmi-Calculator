@@ -11,10 +11,15 @@ body {
     color:darkgoldenrod;
 }
 #header div #img {
-    display: inline-flex;
+    display: inline-block;
     width: 620px;
     height: 315px;
 }
+#header .responsive {
+    width: 100%;
+    height: auto;
+}
+
 #calculator {
     font-size: 25px;
     display: inline-flex;
