@@ -19,9 +19,9 @@ function Calculator() {
     }, [height,weight]);
     return (
         <div className="App" id="app">
-            <p id="height">Height</p>
+            <p id="height">Height (cm)</p>
             <input id="heightInput" type="number" onChange={inputHeight}></input>
-            <p id="weight">Weight</p>
+            <p id="weight">Weight (kg)</p>
             <input id="weightInput" type="number" onChange={inputWeight}></input>
             <h3 id="calculate">BMI: {bmi}</h3>
         </div>
