@@ -20,7 +20,25 @@ body {
     width: 100%;
     height: auto;
 }
-
+@media screen and (max-width: 700px) {
+    #header {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 14px;
+        color:darkgoldenrod;
+        padding-left: 1.8rem;
+    }
+    #header div #img {
+        display: inline-block;
+        width: 300px;
+        height: 180px;
+        padding-right: 1rem;
+    }
+    #header .responsive {
+        width: 100%;
+        height: auto;
+    }
+}
 #calculator {
     font-size: 25px;
     display: inline-flex;
@@ -34,8 +52,31 @@ body {
     font-size: 18px;
     background: darkgrey;
 }
+@media screen and (max-width: 700px) {
+    #calculator {
+        font-size: 18px;
+        display: inline-flex;
+        text-align: justify-all;
+    }
+    #calculator div #heightInput {
+        font-size: 15px;
+        background: darkgrey;
+    }
+    #calculator div #weightInput {
+        font-size: 14px;
+        background: darkgrey;
+    }
+}
 #description {
     font-size: 22px;
     color: bisque;
     text-align: center;
+
+}
+@media screen and (max-width: 700px) {
+    #description {
+        font-size: 15px;
+        color: bisque;
+        text-align: center;
+    }
 }
